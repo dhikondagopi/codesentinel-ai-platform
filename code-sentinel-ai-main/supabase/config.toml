@@ -1,0 +1,16 @@
+project_id = "eaoxcldbxaujhbfuyukr"
+
+[functions.analyze-code]
+verify_jwt = false
+
+[functions.fetch-repo]
+verify_jwt = false
+
+[functions.generate-tests]
+verify_jwt = false
+
+[functions.security-scan]
+verify_jwt = false
+
+[functions.review-pr]
+verify_jwt = false
