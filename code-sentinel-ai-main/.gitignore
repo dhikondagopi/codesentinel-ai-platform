@@ -1,3 +1,11 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Supabase local files
+.supabase
+
 # Logs
 logs
 *.log
@@ -7,9 +15,14 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
+
+# Build output
 dist
 dist-ssr
+
+# Local config
 *.local
 
 # Editor directories and files
